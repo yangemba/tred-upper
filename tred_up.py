@@ -2,6 +2,7 @@ import requests
 import bs4
 import random
 import time
+import json
 
 wait = random.randrange(7200, 18001, 3600)
 # print(wait)
@@ -19,8 +20,28 @@ with open('dict.txt', 'r') as file:
 
 last_dict_element = (len(dict) - 1)
 len_array = random.randint(0,last_dict_element)
-BUMP_WORD = dict[len_array]
+BUMP_WORD = {
+
+    "task" : "post",
+    "board": "ch",
+    "thread" : "63521",
+    "usercode": None,
+    "code": None,
+    "captcha_type": "invisible_recaptcha",
+    "email": None,
+    "name": None,
+    "subject" : None,
+    "comment" : dict[len_array],
+    "g-recaptcha-response" : None,
+    "2chaptcha_id" : None
+
+}
+
+comment = json.dumps(BUMP_WORD)
+
 # print("Bump-word = ", BUMP_WORD)
+
+
 
 while True:
     response = requests.get("https://2ch.hk/ch")
@@ -35,7 +56,7 @@ while True:
 
             if response:
                 print("sent bump")
-                response = requests.post("https://2ch.hk/makaba/posting.fcgi?json=1", data = BUMP_WORD)
+                response = requests.post("https://2ch.hk/makaba/posting.fcgi?json=1", data = comment)
         else:
             print("Its already bumped")
     else:
