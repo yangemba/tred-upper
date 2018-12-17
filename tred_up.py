@@ -35,7 +35,7 @@ while True:
 
             if response:
                 print("sent bump")
-                response = requests.post("https://2ch.hk/ch/res/63521.html", data = BUMP_WORD)
+                response = requests.post("https://2ch.hk/makaba/posting.fcgi?json=1", data = BUMP_WORD)
         else:
             print("Its already bumped")
     else:
