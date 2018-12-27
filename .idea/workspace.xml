@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="938c003d-6cf7-4bde-b7e5-2e605cc2b717" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/chek.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/const.txt" beforeDir="false" afterPath="$PROJECT_DIR$/const.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tred_up.py" beforeDir="false" afterPath="$PROJECT_DIR$/tred_up.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +17,8 @@
       <file leaf-file-name="tred_up.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tred_up.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="86">
+              <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -41,16 +39,7 @@
         <entry file="file://$PROJECT_DIR$/const.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dict.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dict.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
+              <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -70,9 +59,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/const.txt" />
         <option value="$PROJECT_DIR$/dict.txt" />
         <option value="$PROJECT_DIR$/chek.py" />
+        <option value="$PROJECT_DIR$/const.txt" />
         <option value="$PROJECT_DIR$/tred_up.py" />
       </list>
     </option>
@@ -120,7 +109,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.chek">
+  <component name="RunManager" selected="Python.tred_up">
     <configuration name="chek" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tred-upper" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -163,8 +152,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.chek" />
         <item itemvalue="Python.tred_up" />
+        <item itemvalue="Python.chek" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +177,7 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24942264" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37828946" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37828946" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -224,7 +213,6 @@
           <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
-            <marker date="1545268726379" expanded="true" signature="332:391" ph="..." />
           </folding>
         </state>
       </provider>
@@ -266,7 +254,6 @@
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
-            <marker date="1545268726379" expanded="true" signature="332:391" ph="..." />
           </folding>
         </state>
       </provider>
@@ -329,7 +316,6 @@
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
-            <marker date="1545268726379" expanded="true" signature="332:391" ph="..." />
           </folding>
         </state>
       </provider>
@@ -371,7 +357,6 @@
           <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
-            <marker date="1545268726379" expanded="true" signature="332:391" ph="..." />
           </folding>
         </state>
       </provider>
@@ -510,6 +495,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/const" />
+    <entry file="file://$PROJECT_DIR$/chek.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dict.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -520,7 +515,7 @@
     <entry file="file://$PROJECT_DIR$/const.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -531,21 +526,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chek.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-            <marker date="1545268726379" expanded="true" signature="332:391" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tred_up.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="86">
+          <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

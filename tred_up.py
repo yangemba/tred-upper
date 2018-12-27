@@ -9,8 +9,11 @@ wait = random.randrange(7200, 18001, 3600)
 
 with open('const.txt', 'r') as file:
     file.seek(0)
-    CONST = file.read()
-# print("const = ", CONST)
+    urls = file.read()
+    urls_list = urls.split(',')
+    CONST1 = urls_list[0]
+    CONST2 = urls_list[1]
+    print(CONST1, '+' , CONST2)
 
 with open('dict.txt', 'r') as file:
     file.seek(0)
@@ -42,23 +45,27 @@ comment = json.dumps(BUMP_WORD)
 # print("Bump-word = ", BUMP_WORD)
 
 
+if __name__ == "__main__":
 
-while True:
-    response = requests.get("https://2ch.hk/ch")
+    while True:
+        response = requests.get(CONST1)
 
-    if response.status_code == 200:
-        soup = bs4.BeautifulSoup(response.text, "html.parser")
-        search_area = soup.findAll("div", {"class": "thread"})
+        if response.status_code == 200:
+            soup = bs4.BeautifulSoup(response.text, "html.parser")
+            search_area = soup.findAll("div", {"class": "thread"})
 
-        if CONST not in str(search_area[1]):
-            print("connection")
-            response = requests.get("https://2ch.hk/ch/res/63521.html")
+            if f'thread-{CONST2}' not in str(search_area[1]):
+                print("connection")
+                response = requests.get(f'{CONST1}/res/{CONST2}.html')
 
-            if response:
-                print("sent bump")
-                response = requests.post("https://2ch.hk/makaba/posting.fcgi?json=1", data = comment)
+                if response:
+                    print("bump sent")
+                    response = requests.post("https://2ch.hk/makaba/posting.fcgi?json=1", data = comment)
+            else:
+                print("Its already bumped")
         else:
-            print("Its already bumped")
-    else:
-        continue
-    time.sleep(wait)
+            time.sleep(60)
+            continue
+
+        time.sleep(wait)
+
